@@ -72,7 +72,6 @@
 2. Add New Save button (remove all others)
 3. Remove Data Source tab
 4. Modify Presenter to accept a DashboardDesigner and add the following
-
         void View_DashboardClosing(object sender, DashboardClosingEventArgs e)
         {
             e.IsDashboardModified = false;
